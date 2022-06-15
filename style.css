@@ -1,0 +1,84 @@
+body {
+	color: white;
+	padding: 60px;
+	background-color: rgb(74, 68, 68);
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	border-radius: 27px;
+	padding: 25px;
+}
+.items {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.float-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid transparent;
+}
+#heading {
+	font-family: "Concert One", cursive;
+}
+#para {
+	padding-top: 0%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#text {
+	font-family: "Concert One", cursive;
+}
+.float-child {
+	width: 30%;
+	float: left;
+	padding: 20px;
+	height: fit-content;
+	border-radius: 27px;
+	background: linear-gradient(145deg, #393737, #10100d);
+	box-shadow: 21px 21px 27px #52511d, -21px -21px 27px #858020;
+}
+#btn {
+	font-family: "Concert One", cursive;
+	color: white;
+	background-color: #52511d;
+	border-radius: 25px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+#btn:hover {
+	background-color: white;
+	color: #52511d;
+}
+#height {
+	background-color: #858020;
+}
+#weight {
+	background-color: #858020;
+}
+#text {
+	align-items: center;
+}
+.float-child2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+	float: right;
+	padding: 20px;
+	height: 70vh;
+}
